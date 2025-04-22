@@ -1,0 +1,17 @@
+2025-04-20 19:43:10,721 - __main__ - INFO - Using device: cuda
+2025-04-20 19:43:10,887 - __main__ - INFO - Initialized controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+2025-04-20 19:43:10,887 - __main__ - INFO - Epoch 0: Generating dataset...
+2025-04-20 19:43:13,429 - __main__ - INFO - Final state: tensor([ 0.9436, -0.0280,  0.2257,  0.0237], device='cuda:0')
+2025-04-20 19:43:13,431 - __main__ - INFO - Controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+2025-04-20 19:50:58,831 - __main__ - INFO - global_step: 000050, lr: 0.00861, log_pxs: -241461.1562, log_ratio: 11872.6816 loss: 242054.7969, kl_coeff: 0.0510
+2025-04-20 19:56:18,290 - __main__ - INFO - Using device: cuda
+2025-04-20 19:56:18,477 - __main__ - INFO - Initialized controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+2025-04-20 19:56:18,477 - __main__ - INFO - Epoch 0: Generating dataset...
+2025-04-20 19:56:20,857 - __main__ - INFO - Final state: tensor([ 0.8009, -0.0771,  0.2340,  0.0213], device='cuda:0')
+2025-04-20 19:56:20,861 - __main__ - INFO - Controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+2025-04-20 20:04:10,668 - __main__ - INFO - global_step: 000050, lr: 0.00861, log_pxs: -140798.5625, log_ratio: 51589.1055 loss: 143378.0156, kl_coeff: 0.0510
+2025-04-20 20:07:52,126 - __main__ - INFO - Using device: cuda
+2025-04-20 20:07:52,271 - __main__ - INFO - Initialized controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+2025-04-20 20:07:52,271 - __main__ - INFO - Epoch 0: Generating dataset...
+2025-04-20 20:07:54,646 - __main__ - INFO - Final state: tensor([-2.2758,  0.0056, -0.0224, -0.0101], device='cuda:0')
+2025-04-20 20:07:54,648 - __main__ - INFO - Controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')

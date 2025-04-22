@@ -1,0 +1,733 @@
+Running SLURM prolog script on swarma1003
+===============================================================================
+Job started on Sun Apr 20 19:33:41 BST 2025
+Job ID          : 117588
+Job name        : cartpole
+WorkDir         : /iridisfs/scratch/yl1d24
+Command         : /iridisfs/scratch/yl1d24/cartpole.slurm
+Partition       : swarm_a100
+Num hosts       : 1
+Num cores       : 4
+Num of tasks    : 1
+Hosts allocated : swarma1003
+Job Output Follows ...
+===============================================================================
+Epoch 0: Generating dataset...
+Final state: tensor([-2.8849, -0.0139, -0.0316,  0.0573], device='cuda:0')
+Controller weights: tensor([[-0.1000, -0.3000, -1.0000, -0.5000]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -182223.1875, log_ratio: 18489.7090 loss: 183147.6719, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -143976.6562, log_ratio: 6005.8091 loss: 144577.2344, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -118026.1641, log_ratio: 6389.6021 loss: 118984.6016, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -74041.0625, log_ratio: 13930.5967 loss: 76827.1797, kl_coeff: 0.2010
+Epoch 1: Generating dataset...
+Final state: tensor([-1.2693, -0.0169,  0.0366, -0.0318], device='cuda:0')
+Controller weights: tensor([[-0.1989, -0.2585, -1.2031, -0.4251]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -64449.5703, log_ratio: 27142.6387 loss: 65806.7031, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -53433.3359, log_ratio: 11275.8594 loss: 54560.9219, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -51975.9297, log_ratio: 8686.8447 loss: 53278.9570, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -49292.1797, log_ratio: 7635.1172 loss: 50819.2031, kl_coeff: 0.2010
+Epoch 2: Generating dataset...
+Final state: tensor([-1.1528,  0.0030, -0.0030,  0.0022], device='cuda:0')
+Controller weights: tensor([[-0.1967, -0.2084, -1.2875, -0.3499]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -62796.8984, log_ratio: 16919.8379 loss: 63642.8906, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -22625.5801, log_ratio: 12800.4697 loss: 23905.6270, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -11394.7305, log_ratio: 9061.7070 loss: 12753.9863, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -10332.9121, log_ratio: 5440.1279 loss: 11420.9375, kl_coeff: 0.2010
+Epoch 3: Generating dataset...
+Final state: tensor([-1.1804, -0.0199,  0.0336, -0.0458], device='cuda:0')
+Controller weights: tensor([[-0.2234, -0.1787, -1.2777, -0.3911]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -9695.8047, log_ratio: 11726.4854 loss: 10282.1289, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -8546.8379, log_ratio: 6160.2764 loss: 9162.8652, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -6695.5757, log_ratio: 5207.9512 loss: 7476.7686, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -3963.2505, log_ratio: 5141.9224 loss: 4991.6348, kl_coeff: 0.2010
+Epoch 4: Generating dataset...
+Final state: tensor([-0.8946, -0.0445,  0.0449,  0.0191], device='cuda:0')
+Controller weights: tensor([[-0.2540, -0.1376, -1.2535, -0.4033]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -8505.8193, log_ratio: 9419.5586 loss: 8976.7969, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -5005.1533, log_ratio: 5233.0723 loss: 5528.4604, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -3415.0439, log_ratio: 4309.0942 loss: 4061.4082, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -2161.0017, log_ratio: 4053.4854 loss: 2971.6987, kl_coeff: 0.2010
+Epoch 5: Generating dataset...
+Final state: tensor([-0.9824,  0.0010,  0.0432, -0.0290], device='cuda:0')
+Controller weights: tensor([[-0.2670, -0.1320, -1.2184, -0.4908]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -4660.4189, log_ratio: 7904.6011 loss: 5055.6489, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -2395.4683, log_ratio: 4721.0391 loss: 2867.5723, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -1296.2449, log_ratio: 4019.7493 loss: 1899.2073, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -974.1639, log_ratio: 3561.6091 loss: 1686.4858, kl_coeff: 0.2010
+Epoch 6: Generating dataset...
+Final state: tensor([-0.9667,  0.0669,  0.0340, -0.0186], device='cuda:0')
+Controller weights: tensor([[-0.2786, -0.1230, -1.2088, -0.4752]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -2281.8105, log_ratio: 6522.3853 loss: 2607.9297, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: -659.4976, log_ratio: 4254.9492 loss: 1084.9926, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: -329.4937, log_ratio: 3252.3472 loss: 817.3458, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: -372.6527, log_ratio: 2463.2197 loss: 865.2967, kl_coeff: 0.2010
+Epoch 7: Generating dataset...
+Final state: tensor([-0.8526, -0.0149,  0.0339, -0.0636], device='cuda:0')
+Controller weights: tensor([[-0.2772, -0.1301, -1.1717, -0.4646]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -392.1199, log_ratio: 5692.0171 loss: 676.7208, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 128.4556, log_ratio: 3337.0251 loss: 205.2470, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 304.9215, log_ratio: 2543.3057 loss: 76.5744, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 423.2274, log_ratio: 1997.7915 loss: -23.6690, kl_coeff: 0.2010
+Epoch 8: Generating dataset...
+Final state: tensor([-0.8841,  0.0188,  0.0273, -0.0443], device='cuda:0')
+Controller weights: tensor([[-0.2747, -0.1486, -1.1622, -0.4925]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 407.8011, log_ratio: 3619.2063 loss: -226.8408, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 649.6461, log_ratio: 2458.4048 loss: -403.8056, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 756.4772, log_ratio: 1770.8214 loss: -490.8539, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 772.3789, log_ratio: 1561.8690 loss: -460.0051, kl_coeff: 0.2010
+Epoch 9: Generating dataset...
+Final state: tensor([-0.9338, -0.0438,  0.0832,  0.0940], device='cuda:0')
+Controller weights: tensor([[-0.2768, -0.1683, -1.1297, -0.4904]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 423.1701, log_ratio: 3728.1577 loss: -236.7622, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 790.4990, log_ratio: 1984.0178 loss: -592.0972, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 840.6824, log_ratio: 1732.6185 loss: -580.7896, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 858.4659, log_ratio: 1494.3307 loss: -559.5997, kl_coeff: 0.2010
+Epoch 10: Generating dataset...
+Final state: tensor([-1.0273, -0.0645,  0.0744,  0.0561], device='cuda:0')
+Controller weights: tensor([[-0.2632, -0.1771, -1.0598, -0.5060]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 407.7888, log_ratio: 3318.1316 loss: -241.8822, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 885.2875, log_ratio: 1872.6117 loss: -698.0264, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 932.0385, log_ratio: 1530.6021 loss: -702.4482, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 970.9891, log_ratio: 1355.8146 loss: -699.8262, kl_coeff: 0.2010
+Epoch 11: Generating dataset...
+Final state: tensor([-1.1995, -0.0211,  0.1008, -0.0134], device='cuda:0')
+Controller weights: tensor([[-0.2582, -0.2110, -0.9957, -0.5252]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 462.2954, log_ratio: 3795.4558 loss: -272.5226, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 970.8677, log_ratio: 1921.4537 loss: -778.7223, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1002.6107, log_ratio: 1583.3726 loss: -765.1049, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 996.1301, log_ratio: 1436.3187 loss: -708.8663, kl_coeff: 0.2010
+Epoch 12: Generating dataset...
+Final state: tensor([-1.3835, -0.0365,  0.0902, -0.0286], device='cuda:0')
+Controller weights: tensor([[-0.2450, -0.2795, -0.9679, -0.4924]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 886.5553, log_ratio: 3069.2573 loss: -733.0924, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1027.1615, log_ratio: 1923.3744 loss: -834.8240, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1044.7720, log_ratio: 1618.0972 loss: -802.0574, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1039.9596, log_ratio: 1462.2347 loss: -747.5126, kl_coeff: 0.2010
+Epoch 13: Generating dataset...
+Final state: tensor([-1.5253, -0.0473,  0.1361,  0.0492], device='cuda:0')
+Controller weights: tensor([[-0.2437, -0.2981, -0.9490, -0.4984]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 988.4174, log_ratio: 3306.3064 loss: -823.1021, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1098.9673, log_ratio: 1858.7910 loss: -913.0882, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1090.2305, log_ratio: 1555.1539 loss: -856.9574, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1089.2942, log_ratio: 1418.9703 loss: -805.5001, kl_coeff: 0.2010
+Epoch 14: Generating dataset...
+Final state: tensor([-1.8617, -0.0668,  0.1883,  0.0386], device='cuda:0')
+Controller weights: tensor([[-0.2220, -0.3305, -0.9140, -0.4856]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 936.1595, log_ratio: 2717.3218 loss: -800.2934, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1093.9080, log_ratio: 1942.9006 loss: -899.6179, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1074.1791, log_ratio: 1644.5220 loss: -827.5008, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1068.6008, log_ratio: 1476.3987 loss: -773.3210, kl_coeff: 0.2010
+Epoch 15: Generating dataset...
+Final state: tensor([-1.9319,  0.0230,  0.0888, -0.0326], device='cuda:0')
+Controller weights: tensor([[-0.2196, -0.3389, -0.8992, -0.5067]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 975.4144, log_ratio: 2845.7573 loss: -833.1266, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1080.8555, log_ratio: 1939.4867 loss: -886.9068, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1090.0387, log_ratio: 1632.8060 loss: -845.1178, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1071.0886, log_ratio: 1399.8138 loss: -791.1259, kl_coeff: 0.2010
+Epoch 16: Generating dataset...
+Final state: tensor([-2.0414,  0.0137,  0.1259, -0.0439], device='cuda:0')
+Controller weights: tensor([[-0.2177, -0.3514, -0.8774, -0.5426]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 769.7795, log_ratio: 3665.3857 loss: -586.5103, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1065.0828, log_ratio: 1868.9526 loss: -878.1875, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1077.8003, log_ratio: 1553.1179 loss: -844.8326, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1072.8857, log_ratio: 1393.2867 loss: -794.2284, kl_coeff: 0.2010
+Epoch 17: Generating dataset...
+Final state: tensor([-2.2800, -0.0370,  0.1637,  0.0095], device='cuda:0')
+Controller weights: tensor([[-0.2108, -0.3709, -0.8477, -0.5329]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 687.3650, log_ratio: 3177.0964 loss: -528.5101, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1028.4209, log_ratio: 1888.5972 loss: -839.5612, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1058.9612, log_ratio: 1597.0110 loss: -819.4095, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1051.2451, log_ratio: 1428.6503 loss: -765.5150, kl_coeff: 0.2010
+Epoch 18: Generating dataset...
+Final state: tensor([-2.4074, -0.0817,  0.2093,  0.0907], device='cuda:0')
+Controller weights: tensor([[-0.2066, -0.3963, -0.8244, -0.5060]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 840.2723, log_ratio: 3304.1130 loss: -675.0667, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1047.8646, log_ratio: 1851.9258 loss: -862.6721, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1052.4768, log_ratio: 1627.8264 loss: -808.3029, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1054.8805, log_ratio: 1473.7681 loss: -760.1268, kl_coeff: 0.2010
+Epoch 19: Generating dataset...
+Final state: tensor([-2.3908,  0.0219,  0.1047,  0.0134], device='cuda:0')
+Controller weights: tensor([[-0.2004, -0.4118, -0.8059, -0.5075]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 798.3306, log_ratio: 2810.0293 loss: -657.8292, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1072.4392, log_ratio: 1879.2229 loss: -884.5169, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1082.4700, log_ratio: 1544.5995 loss: -850.7800, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1061.8157, log_ratio: 1442.8120 loss: -773.2533, kl_coeff: 0.2010
+Epoch 20: Generating dataset...
+Final state: tensor([-2.7614e+00,  3.6930e-04,  1.3233e-01, -2.8469e-02], device='cuda:0')
+Controller weights: tensor([[-0.1944, -0.4300, -0.7848, -0.4864]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 939.6522, log_ratio: 2930.7026 loss: -793.1171, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1104.8125, log_ratio: 1855.8787 loss: -919.2246, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1095.1238, log_ratio: 1590.7341 loss: -856.5137, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1095.9265, log_ratio: 1475.4843 loss: -800.8297, kl_coeff: 0.2010
+Epoch 21: Generating dataset...
+Final state: tensor([-3.0520,  0.0495,  0.1126, -0.0429], device='cuda:0')
+Controller weights: tensor([[-0.1859, -0.4344, -0.7680, -0.5205]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 871.2410, log_ratio: 2530.3850 loss: -744.7217, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1108.5314, log_ratio: 1797.9188 loss: -928.7395, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1099.3984, log_ratio: 1615.3395 loss: -857.0975, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1089.2866, log_ratio: 1413.2284 loss: -806.6409, kl_coeff: 0.2010
+Epoch 22: Generating dataset...
+Final state: tensor([-3.2226,  0.0389,  0.0946, -0.0179], device='cuda:0')
+Controller weights: tensor([[-0.1769, -0.4499, -0.7471, -0.5110]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 847.6117, log_ratio: 2688.8647 loss: -713.1685, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1115.8359, log_ratio: 2019.2872 loss: -913.9072, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1101.1362, log_ratio: 1724.7147 loss: -842.4290, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1100.5673, log_ratio: 1593.5769 loss: -781.8519, kl_coeff: 0.2010
+Epoch 23: Generating dataset...
+Final state: tensor([-3.6936,  0.0771,  0.0157, -0.0069], device='cuda:0')
+Controller weights: tensor([[-0.1568, -0.4475, -0.7370, -0.5582]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 921.8004, log_ratio: 3170.6475 loss: -763.2681, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1058.2981, log_ratio: 1964.1495 loss: -861.8831, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1058.6827, log_ratio: 1692.3381 loss: -804.8320, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1046.3934, log_ratio: 1560.4351 loss: -734.3064, kl_coeff: 0.2010
+Epoch 24: Generating dataset...
+Final state: tensor([-3.7873,  0.0222,  0.0454, -0.0374], device='cuda:0')
+Controller weights: tensor([[-0.1517, -0.4664, -0.7179, -0.5337]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 800.4222, log_ratio: 2960.6047 loss: -652.3920, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1035.2988, log_ratio: 1983.5707 loss: -836.9418, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1028.3159, log_ratio: 1757.9220 loss: -764.6276, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1016.5224, log_ratio: 1567.7946 loss: -702.9635, kl_coeff: 0.2010
+Epoch 25: Generating dataset...
+Final state: tensor([-4.1632e+00, -1.5506e-03,  2.4484e-02, -1.0168e-02], device='cuda:0')
+Controller weights: tensor([[-0.1393, -0.5032, -0.6928, -0.5073]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 769.2302, log_ratio: 3539.4661 loss: -592.2569, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1029.6301, log_ratio: 2020.9590 loss: -827.5342, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1047.3987, log_ratio: 1745.1963 loss: -785.6193, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1028.9929, log_ratio: 1572.9578 loss: -714.4014, kl_coeff: 0.2010
+Epoch 26: Generating dataset...
+Final state: tensor([-4.8129,  0.0821, -0.1099, -0.0621], device='cuda:0')
+Controller weights: tensor([[-0.1178, -0.5107, -0.6785, -0.6158]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 887.1760, log_ratio: 2762.6145 loss: -749.0453, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 983.4739, log_ratio: 1989.2635 loss: -784.5475, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 991.9307, log_ratio: 1674.3009 loss: -740.7856, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 992.0288, log_ratio: 1505.8047 loss: -690.8679, kl_coeff: 0.2010
+Epoch 27: Generating dataset...
+Final state: tensor([-6.0018e+00,  1.1915e-01, -2.9668e-01, -4.7988e-04], device='cuda:0')
+Controller weights: tensor([[-0.0848, -0.5564, -0.6323, -0.5830]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 529.3534, log_ratio: 3056.6067 loss: -376.5231, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 967.1497, log_ratio: 2093.8120 loss: -757.7685, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 959.5476, log_ratio: 1798.7495 loss: -689.7352, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 971.1439, log_ratio: 1581.5090 loss: -654.8420, kl_coeff: 0.2010
+Epoch 28: Generating dataset...
+Final state: tensor([-8.4630, -0.0287, -0.7175,  0.0498], device='cuda:0')
+Controller weights: tensor([[-0.0215, -0.5783, -0.6185, -0.6027]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 307.6301, log_ratio: 3910.4102 loss: -112.1096, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 851.2266, log_ratio: 2241.5159 loss: -627.0750, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 865.2155, log_ratio: 1831.8124 loss: -590.4436, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 871.1614, log_ratio: 1669.4154 loss: -537.2783, kl_coeff: 0.2010
+Epoch 29: Generating dataset...
+Final state: tensor([-1.0189e+01, -9.9458e-02, -1.2182e+00,  4.7695e-03], device='cuda:0')
+Controller weights: tensor([[ 0.0312, -0.5941, -0.6160, -0.6075]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 433.1765, log_ratio: 3981.2156 loss: -234.1157, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 735.1487, log_ratio: 2446.9792 loss: -490.4507, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 763.3104, log_ratio: 1987.6836 loss: -465.1579, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 745.1720, log_ratio: 1703.4611 loss: -404.4798, kl_coeff: 0.2010
+Epoch 30: Generating dataset...
+Final state: tensor([-11.6839,  -0.0665,  -1.7070,  -0.0811], device='cuda:0')
+Controller weights: tensor([[ 0.0628, -0.5720, -0.6073, -0.5975]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 75.9373, log_ratio: 3586.4670 loss: 103.3860, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 620.9038, log_ratio: 2478.0842 loss: -373.0954, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 689.3195, log_ratio: 2079.1582 loss: -377.4458, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 690.9907, log_ratio: 1784.6598 loss: -334.0587, kl_coeff: 0.2010
+Epoch 31: Generating dataset...
+Final state: tensor([-11.8967,  -0.1077,  -1.7059,   0.0157], device='cuda:0')
+Controller weights: tensor([[ 0.0636, -0.5507, -0.6026, -0.6455]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -1482.3289, log_ratio: 4269.9258 loss: 1695.8252, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 601.1237, log_ratio: 2797.7053 loss: -321.3531, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 639.7387, log_ratio: 2205.0710 loss: -308.9780, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 633.0813, log_ratio: 1840.7336 loss: -264.9346, kl_coeff: 0.2010
+Epoch 32: Generating dataset...
+Final state: tensor([-10.7550,  -0.0954,  -1.4566,  -0.0205], device='cuda:0')
+Controller weights: tensor([[ 0.0543, -0.5558, -0.6194, -0.6249]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -596.1918, log_ratio: 4992.6333 loss: 845.8234, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 718.1959, log_ratio: 2294.2061 loss: -488.7753, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 738.4716, log_ratio: 1952.0900 loss: -445.6581, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 743.0073, log_ratio: 1682.5326 loss: -406.5008, kl_coeff: 0.2010
+Epoch 33: Generating dataset...
+Final state: tensor([-9.7693, -0.0175, -1.2389,  0.0412], device='cuda:0')
+Controller weights: tensor([[ 0.0409, -0.5694, -0.6365, -0.6421]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 389.9510, log_ratio: 3714.5422 loss: -204.2239, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 825.3380, log_ratio: 2219.8975 loss: -603.3482, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 847.3820, log_ratio: 1792.6788 loss: -578.4801, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 855.6545, log_ratio: 1586.0748 loss: -538.4396, kl_coeff: 0.2010
+Epoch 34: Generating dataset...
+Final state: tensor([-8.2614, -0.0536, -0.8782,  0.0132], device='cuda:0')
+Controller weights: tensor([[ 0.0143, -0.5799, -0.6692, -0.6432]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 672.5294, log_ratio: 4072.1050 loss: -468.9242, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 841.5773, log_ratio: 1999.1229 loss: -641.6650, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 885.9099, log_ratio: 1616.8739 loss: -643.3788, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 927.7666, log_ratio: 1465.5188 loss: -634.6628, kl_coeff: 0.2010
+Epoch 35: Generating dataset...
+Final state: tensor([-7.4377,  0.0239, -0.7657, -0.0303], device='cuda:0')
+Controller weights: tensor([[ 0.0040, -0.5760, -0.6923, -0.6459]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 443.3064, log_ratio: 2849.6870 loss: -300.8220, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 950.4766, log_ratio: 1914.9066 loss: -758.9859, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 928.6843, log_ratio: 1630.7117 loss: -684.0775, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 914.2482, log_ratio: 1447.9791 loss: -624.6523, kl_coeff: 0.2010
+Epoch 36: Generating dataset...
+Final state: tensor([-7.5861, -0.0242, -0.7510,  0.0421], device='cuda:0')
+Controller weights: tensor([[ 0.0060, -0.5710, -0.6901, -0.6481]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 428.3260, log_ratio: 2996.5911 loss: -278.4965, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 869.6766, log_ratio: 1970.4827 loss: -672.6283, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 881.0967, log_ratio: 1655.8765 loss: -632.7152, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 854.7563, log_ratio: 1506.9771 loss: -553.3608, kl_coeff: 0.2010
+Epoch 37: Generating dataset...
+Final state: tensor([-7.9322, -0.0113, -0.8043,  0.0610], device='cuda:0')
+Controller weights: tensor([[ 0.0094, -0.6224, -0.6789, -0.5991]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: -20.5771, log_ratio: 3165.0388 loss: 178.8290, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 883.9028, log_ratio: 2048.2092 loss: -679.0819, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 870.3565, log_ratio: 1662.0709 loss: -621.0458, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 881.3726, log_ratio: 1508.2460 loss: -579.7234, kl_coeff: 0.2010
+Epoch 38: Generating dataset...
+Final state: tensor([-7.3305, -0.0238, -0.6163,  0.0113], device='cuda:0')
+Controller weights: tensor([[-0.0096, -0.6477, -0.6995, -0.5750]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 591.8785, log_ratio: 2574.1440 loss: -463.1713, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 875.4806, log_ratio: 2042.7894 loss: -671.2017, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 927.4805, log_ratio: 1611.9720 loss: -685.6846, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 903.6541, log_ratio: 1449.9828 loss: -613.6575, kl_coeff: 0.2010
+Epoch 39: Generating dataset...
+Final state: tensor([-7.0120, -0.0296, -0.6482,  0.0556], device='cuda:0')
+Controller weights: tensor([[-0.0078, -0.6670, -0.6916, -0.5703]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 539.8177, log_ratio: 3255.8472 loss: -377.0253, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 912.0854, log_ratio: 1923.7397 loss: -719.7114, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 879.5501, log_ratio: 1623.4185 loss: -636.0374, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 901.4930, log_ratio: 1468.3353 loss: -607.8259, kl_coeff: 0.2010
+Epoch 40: Generating dataset...
+Final state: tensor([-7.7957,  0.0390, -0.7803, -0.0265], device='cuda:0')
+Controller weights: tensor([[ 0.0023, -0.6837, -0.6806, -0.5591]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 302.2549, log_ratio: 3186.5959 loss: -142.9251, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 947.4020, log_ratio: 1975.6417 loss: -749.8379, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 959.0869, log_ratio: 1643.4323 loss: -712.5721, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 917.9077, log_ratio: 1468.8580 loss: -624.1361, kl_coeff: 0.2010
+Epoch 41: Generating dataset...
+Final state: tensor([-7.2630,  0.0643, -0.7454, -0.0374], device='cuda:0')
+Controller weights: tensor([[-0.0031, -0.6773, -0.6830, -0.5559]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 547.5857, log_ratio: 3193.7046 loss: -387.9005, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 895.5838, log_ratio: 2014.7175 loss: -694.1121, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 899.5713, log_ratio: 1746.6515 loss: -637.5735, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 924.1412, log_ratio: 1536.2777 loss: -616.8857, kl_coeff: 0.2010
+Epoch 42: Generating dataset...
+Final state: tensor([-8.2268, -0.0230, -0.7899,  0.0448], device='cuda:0')
+Controller weights: tensor([[ 0.0087, -0.6816, -0.6704, -0.5618]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 793.0709, log_ratio: 2927.8958 loss: -646.6761, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 948.5698, log_ratio: 2063.6511 loss: -742.2047, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 925.8726, log_ratio: 1719.2257 loss: -667.9888, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 929.6314, log_ratio: 1525.8933 loss: -624.4528, kl_coeff: 0.2010
+Epoch 43: Generating dataset...
+Final state: tensor([-7.8159,  0.0110, -0.8010,  0.0244], device='cuda:0')
+Controller weights: tensor([[ 0.0051, -0.6892, -0.6670, -0.5619]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 706.1135, log_ratio: 2777.3132 loss: -567.2478, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 987.2115, log_ratio: 2042.0203 loss: -783.0095, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 966.2717, log_ratio: 1767.0944 loss: -701.2075, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 971.3320, log_ratio: 1472.5559 loss: -676.8208, kl_coeff: 0.2010
+Epoch 44: Generating dataset...
+Final state: tensor([-7.1601,  0.0350, -0.5792, -0.0118], device='cuda:0')
+Controller weights: tensor([[-0.0256, -0.6961, -0.6658, -0.5607]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 692.3337, log_ratio: 2740.2942 loss: -555.3190, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 988.2797, log_ratio: 1958.9586 loss: -792.3838, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 989.0565, log_ratio: 1666.6501 loss: -739.0590, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 984.6738, log_ratio: 1432.9824 loss: -698.0773, kl_coeff: 0.2010
+Epoch 45: Generating dataset...
+Final state: tensor([-7.8279,  0.0192, -0.7320, -0.0175], device='cuda:0')
+Controller weights: tensor([[-0.0103, -0.7099, -0.6468, -0.5526]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 680.1009, log_ratio: 2710.0273 loss: -544.5995, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1009.0173, log_ratio: 2031.4323 loss: -805.8741, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 995.4818, log_ratio: 1698.8892 loss: -740.6484, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 987.9757, log_ratio: 1509.8687 loss: -686.0020, kl_coeff: 0.2010
+Epoch 46: Generating dataset...
+Final state: tensor([-7.8556e+00,  3.4890e-03, -7.6678e-01, -5.1519e-02], device='cuda:0')
+Controller weights: tensor([[-0.0078, -0.7204, -0.6415, -0.5495]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 508.3898, log_ratio: 3853.4976 loss: -315.7149, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 955.5903, log_ratio: 2044.0541 loss: -751.1849, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 962.1541, log_ratio: 1655.0668 loss: -713.8940, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 931.5927, log_ratio: 1505.3904 loss: -630.5146, kl_coeff: 0.2010
+Epoch 47: Generating dataset...
+Final state: tensor([-7.7777,  0.0446, -0.7785, -0.0687], device='cuda:0')
+Controller weights: tensor([[-0.0077, -0.7011, -0.6350, -0.5514]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 692.5145, log_ratio: 3851.9021 loss: -499.9194, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 979.4129, log_ratio: 2021.7004 loss: -777.2429, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 970.8674, log_ratio: 1708.4476 loss: -714.6003, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 954.5561, log_ratio: 1498.6890 loss: -654.8183, kl_coeff: 0.2010
+Epoch 48: Generating dataset...
+Final state: tensor([-7.7600,  0.0544, -0.7358, -0.0563], device='cuda:0')
+Controller weights: tensor([[-0.0111, -0.6851, -0.6389, -0.5608]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 625.7009, log_ratio: 3049.4241 loss: -473.2297, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 946.8306, log_ratio: 2019.4515 loss: -744.8855, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 964.3737, log_ratio: 1701.0472 loss: -709.2166, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 950.5944, log_ratio: 1544.3234 loss: -641.7297, kl_coeff: 0.2010
+Epoch 49: Generating dataset...
+Final state: tensor([-6.8790,  0.0901, -0.6116, -0.0635], device='cuda:0')
+Controller weights: tensor([[-0.0266, -0.6692, -0.6606, -0.5815]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 851.2332, log_ratio: 2490.8850 loss: -726.6890, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1002.2176, log_ratio: 1979.0901 loss: -804.3086, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 986.4158, log_ratio: 1689.4877 loss: -732.9927, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 966.4598, log_ratio: 1533.0923 loss: -659.8414, kl_coeff: 0.2010
+Epoch 50: Generating dataset...
+Final state: tensor([-7.1028,  0.0693, -0.5495,  0.0544], device='cuda:0')
+Controller weights: tensor([[-0.0296, -0.6913, -0.6415, -0.5685]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 940.3407, log_ratio: 2840.1492 loss: -798.3333, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1028.4556, log_ratio: 2129.9177 loss: -815.4638, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1008.9507, log_ratio: 1754.7269 loss: -745.7416, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 995.6427, log_ratio: 1551.0490 loss: -685.4329, kl_coeff: 0.2010
+Epoch 51: Generating dataset...
+Final state: tensor([-6.9432,  0.0431, -0.5182,  0.0253], device='cuda:0')
+Controller weights: tensor([[-0.0382, -0.7226, -0.6225, -0.5344]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 833.7534, log_ratio: 3474.0681 loss: -660.0500, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1050.3171, log_ratio: 2101.7808 loss: -840.1390, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1039.9867, log_ratio: 1702.6846 loss: -784.5840, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1020.6073, log_ratio: 1564.1926 loss: -707.7688, kl_coeff: 0.2010
+Epoch 52: Generating dataset...
+Final state: tensor([-7.4317,  0.0369, -0.7110,  0.0413], device='cuda:0')
+Controller weights: tensor([[-0.0192, -0.7732, -0.6006, -0.5199]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 849.5286, log_ratio: 3406.1733 loss: -679.2199, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1038.6489, log_ratio: 2143.6389 loss: -824.2850, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1024.9279, log_ratio: 1769.1393 loss: -759.5569, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1001.3050, log_ratio: 1619.0964 loss: -677.4857, kl_coeff: 0.2010
+Epoch 53: Generating dataset...
+Final state: tensor([-7.8949,  0.0175, -0.7575, -0.0156], device='cuda:0')
+Controller weights: tensor([[-0.0144, -0.7634, -0.5977, -0.5176]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 813.3223, log_ratio: 2909.7969 loss: -667.8324, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1037.1135, log_ratio: 2201.9097 loss: -816.9225, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1013.7562, log_ratio: 1814.3156 loss: -741.6089, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 995.6675, log_ratio: 1648.5938 loss: -665.9487, kl_coeff: 0.2010
+Epoch 54: Generating dataset...
+Final state: tensor([-7.8443, -0.0332, -0.7367, -0.0079], device='cuda:0')
+Controller weights: tensor([[-0.0148, -0.7634, -0.5944, -0.4974]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 718.1483, log_ratio: 3967.8567 loss: -519.7555, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 995.3832, log_ratio: 2156.5789 loss: -779.7253, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 979.6814, log_ratio: 1877.2815 loss: -698.0892, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 987.4032, log_ratio: 1677.9045 loss: -651.8223, kl_coeff: 0.2010
+Epoch 55: Generating dataset...
+Final state: tensor([-8.7385, -0.0311, -0.8817, -0.0311], device='cuda:0')
+Controller weights: tensor([[ 0.0023, -0.7465, -0.5874, -0.4753]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 631.2221, log_ratio: 3590.4155 loss: -451.7013, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1036.6205, log_ratio: 2175.3691 loss: -819.0836, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1018.5870, log_ratio: 1898.2614 loss: -733.8478, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 978.2382, log_ratio: 1675.8892 loss: -643.0603, kl_coeff: 0.2010
+Epoch 56: Generating dataset...
+Final state: tensor([-9.4068e+00, -3.6500e-03, -1.1291e+00, -4.3800e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0220, -0.6987, -0.5779, -0.4768]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 589.9760, log_ratio: 3715.4326 loss: -404.2043, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1001.8434, log_ratio: 2342.8726 loss: -767.5562, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 984.9753, log_ratio: 1943.5477 loss: -693.4432, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 949.4623, log_ratio: 1781.9939 loss: -593.0635, kl_coeff: 0.2010
+Epoch 57: Generating dataset...
+Final state: tensor([-8.7012e+00, -1.8595e-03, -1.0054e+00,  4.6750e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0181, -0.7525, -0.5899, -0.4882]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 815.0597, log_ratio: 3343.3826 loss: -647.8906, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1017.6177, log_ratio: 2260.4858 loss: -791.5691, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1003.7836, log_ratio: 1900.9816 loss: -718.6364, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 970.1206, log_ratio: 1721.2605 loss: -625.8685, kl_coeff: 0.2010
+Epoch 58: Generating dataset...
+Final state: tensor([-8.5236, -0.0703, -0.9370,  0.0512], device='cuda:0')
+Controller weights: tensor([[ 0.0152, -0.7623, -0.6000, -0.5012]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 774.8443, log_ratio: 3243.1121 loss: -612.6887, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1050.2511, log_ratio: 2237.2012 loss: -826.5310, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1024.0710, log_ratio: 1915.6122 loss: -736.7292, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 969.8390, log_ratio: 1679.2816 loss: -633.9827, kl_coeff: 0.2010
+Epoch 59: Generating dataset...
+Final state: tensor([-8.8534, -0.0394, -0.9859,  0.0611], device='cuda:0')
+Controller weights: tensor([[ 0.0210, -0.7629, -0.6008, -0.5042]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 694.0946, log_ratio: 3367.5239 loss: -525.7184, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1015.3396, log_ratio: 2204.7073 loss: -794.8689, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 987.0618, log_ratio: 1823.3685 loss: -713.5565, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 986.6476, log_ratio: 1622.6814 loss: -662.1113, kl_coeff: 0.2010
+Epoch 60: Generating dataset...
+Final state: tensor([-9.9854, -0.0736, -1.2817,  0.0475], device='cuda:0')
+Controller weights: tensor([[ 0.0470, -0.7494, -0.5880, -0.4918]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 758.8587, log_ratio: 3607.3589 loss: -578.4907, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1012.6439, log_ratio: 2320.0938 loss: -780.6345, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1013.3406, log_ratio: 1990.8904 loss: -714.7070, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 966.0149, log_ratio: 1753.9421 loss: -615.2264, kl_coeff: 0.2010
+Epoch 61: Generating dataset...
+Final state: tensor([-9.0558, -0.0351, -1.1034, -0.0470], device='cuda:0')
+Controller weights: tensor([[ 0.0275, -0.7660, -0.5988, -0.4843]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 925.3473, log_ratio: 3442.2114 loss: -753.2367, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1014.4635, log_ratio: 2179.6658 loss: -796.4969, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1002.7002, log_ratio: 1840.0541 loss: -726.6921, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 990.8003, log_ratio: 1706.0156 loss: -649.5972, kl_coeff: 0.2010
+Epoch 62: Generating dataset...
+Final state: tensor([-8.5499, -0.0285, -1.0007, -0.0417], device='cuda:0')
+Controller weights: tensor([[ 0.0200, -0.7717, -0.6088, -0.4792]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 920.0778, log_ratio: 2994.1648 loss: -770.3695, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1067.3054, log_ratio: 2195.8115 loss: -847.7242, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1027.8390, log_ratio: 1836.4122 loss: -752.3771, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 980.0355, log_ratio: 1669.2119 loss: -646.1931, kl_coeff: 0.2010
+Epoch 63: Generating dataset...
+Final state: tensor([-8.9625e+00, -6.4026e-03, -1.0977e+00, -5.1926e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0238, -0.7709, -0.5979, -0.4824]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 800.1664, log_ratio: 3260.5930 loss: -637.1367, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1045.4331, log_ratio: 2177.5027 loss: -827.6829, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1024.3596, log_ratio: 1836.9275 loss: -748.8205, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 990.6245, log_ratio: 1702.1978 loss: -650.1849, kl_coeff: 0.2010
+Epoch 64: Generating dataset...
+Final state: tensor([-8.5785e+00, -3.9232e-03, -9.5980e-01,  3.8630e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0155, -0.7724, -0.6026, -0.4808]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 870.5067, log_ratio: 2889.3887 loss: -726.0373, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1067.0667, log_ratio: 2134.5801 loss: -853.6086, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1047.4102, log_ratio: 1816.8418 loss: -774.8839, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1030.5559, log_ratio: 1618.8186 loss: -706.7922, kl_coeff: 0.2010
+Epoch 65: Generating dataset...
+Final state: tensor([-8.2632,  0.0280, -0.9272, -0.0520], device='cuda:0')
+Controller weights: tensor([[ 0.0111, -0.7551, -0.6122, -0.4874]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 863.4474, log_ratio: 3281.8142 loss: -699.3567, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1066.5323, log_ratio: 2018.2855 loss: -864.7038, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1043.5227, log_ratio: 1828.8198 loss: -769.1997, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1019.8712, log_ratio: 1565.7487 loss: -706.7214, kl_coeff: 0.2010
+Epoch 66: Generating dataset...
+Final state: tensor([-7.9924,  0.0449, -0.8763, -0.0185], device='cuda:0')
+Controller weights: tensor([[ 0.0082, -0.7673, -0.6183, -0.4805]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 823.0490, log_ratio: 3118.1143 loss: -667.1433, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1040.4231, log_ratio: 2048.2839 loss: -835.5947, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1019.6151, log_ratio: 1784.2015 loss: -751.9849, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1008.6219, log_ratio: 1573.0511 loss: -694.0117, kl_coeff: 0.2010
+Epoch 67: Generating dataset...
+Final state: tensor([-8.1656e+00, -2.1585e-03, -8.9716e-01, -3.3367e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0127, -0.7742, -0.6207, -0.4577]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 845.5621, log_ratio: 3274.8262 loss: -681.8207, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 995.5142, log_ratio: 2135.1042 loss: -782.0037, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 986.3361, log_ratio: 1783.5504 loss: -718.8035, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 954.1691, log_ratio: 1607.1984 loss: -632.7294, kl_coeff: 0.2010
+Epoch 68: Generating dataset...
+Final state: tensor([-8.7807e+00, -7.6376e-03, -1.0615e+00, -5.5063e-02], device='cuda:0')
+Controller weights: tensor([[ 0.0285, -0.7902, -0.6087, -0.4054]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 885.7727, log_ratio: 3449.8721 loss: -713.2791, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1026.0637, log_ratio: 2252.9028 loss: -800.7734, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1010.0121, log_ratio: 1886.0862 loss: -727.0992, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 990.9855, log_ratio: 1620.7742 loss: -666.8306, kl_coeff: 0.2010
+Epoch 69: Generating dataset...
+Final state: tensor([-8.0534, -0.0428, -0.8937,  0.0403], device='cuda:0')
+Controller weights: tensor([[ 0.0171, -0.7934, -0.6124, -0.4108]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 921.1398, log_ratio: 3037.1226 loss: -769.2836, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1059.8009, log_ratio: 2133.4231 loss: -846.4586, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1025.7966, log_ratio: 1813.5906 loss: -753.7581, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 981.7313, log_ratio: 1673.1519 loss: -647.1010, kl_coeff: 0.2010
+Epoch 70: Generating dataset...
+Final state: tensor([-8.0081,  0.0459, -0.8268,  0.0649], device='cuda:0')
+Controller weights: tensor([[ 0.0105, -0.7687, -0.6227, -0.4096]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 950.0436, log_ratio: 2914.5823 loss: -804.3145, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1043.5453, log_ratio: 2103.4346 loss: -833.2018, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1029.5992, log_ratio: 1810.7734 loss: -757.9832, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 991.7256, log_ratio: 1657.1294 loss: -660.2997, kl_coeff: 0.2010
+Epoch 71: Generating dataset...
+Final state: tensor([-7.4865,  0.0452, -0.7565,  0.0397], device='cuda:0')
+Controller weights: tensor([[ 0.0034, -0.7851, -0.6305, -0.3914]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1002.0303, log_ratio: 3150.8484 loss: -844.4879, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1063.8790, log_ratio: 2127.2693 loss: -851.1521, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1029.9805, log_ratio: 1830.0006 loss: -755.4803, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1017.2943, log_ratio: 1574.1803 loss: -702.4582, kl_coeff: 0.2010
+Epoch 72: Generating dataset...
+Final state: tensor([-7.4255,  0.0262, -0.7310,  0.0173], device='cuda:0')
+Controller weights: tensor([[ 0.0015, -0.7970, -0.6356, -0.3665]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 980.2372, log_ratio: 2663.6292 loss: -847.0557, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1054.7793, log_ratio: 2095.3967 loss: -845.2396, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1043.8237, log_ratio: 1730.3021 loss: -784.2784, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1007.1167, log_ratio: 1642.7329 loss: -678.5701, kl_coeff: 0.2010
+Epoch 73: Generating dataset...
+Final state: tensor([-7.2624,  0.0228, -0.7828, -0.0605], device='cuda:0')
+Controller weights: tensor([[ 0.0031, -0.7655, -0.6318, -0.3439]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 936.4615, log_ratio: 3181.2166 loss: -777.4007, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1042.5142, log_ratio: 2244.5583 loss: -818.0583, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1021.6375, log_ratio: 1882.9664 loss: -739.1925, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 987.3442, log_ratio: 1725.8734 loss: -642.1696, kl_coeff: 0.2010
+Epoch 74: Generating dataset...
+Final state: tensor([-6.4359,  0.0649, -0.6397, -0.0334], device='cuda:0')
+Controller weights: tensor([[-0.0054, -0.7178, -0.6630, -0.3075]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 995.2460, log_ratio: 3091.6375 loss: -840.6642, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1059.3430, log_ratio: 2241.5811 loss: -835.1849, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1064.5651, log_ratio: 1855.7217 loss: -786.2068, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1025.1252, log_ratio: 1638.1621 loss: -697.4928, kl_coeff: 0.2010
+Epoch 75: Generating dataset...
+Final state: tensor([-6.1936,  0.0547, -0.5684, -0.1345], device='cuda:0')
+Controller weights: tensor([[-0.0211, -0.6909, -0.6780, -0.3000]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1014.8805, log_ratio: 3279.4258 loss: -850.9092, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1071.7412, log_ratio: 2108.6843 loss: -860.8728, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1053.9471, log_ratio: 1821.8392 loss: -780.6713, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1047.0857, log_ratio: 1617.3086 loss: -723.6240, kl_coeff: 0.2010
+Epoch 76: Generating dataset...
+Final state: tensor([-6.2945e+00,  1.0702e-01, -5.7145e-01, -1.3629e-04], device='cuda:0')
+Controller weights: tensor([[-0.0137, -0.6993, -0.6668, -0.2956]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 939.6750, log_ratio: 3504.6250 loss: -764.4438, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1081.5388, log_ratio: 2144.0979 loss: -867.1290, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1063.7983, log_ratio: 1828.2452 loss: -789.5615, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1032.0126, log_ratio: 1608.9130 loss: -710.2300, kl_coeff: 0.2010
+Epoch 77: Generating dataset...
+Final state: tensor([-6.6905,  0.0164, -0.6729, -0.0774], device='cuda:0')
+Controller weights: tensor([[-0.0026, -0.6593, -0.6609, -0.2984]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1004.2779, log_ratio: 3606.2712 loss: -823.9644, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1084.8865, log_ratio: 2152.9512 loss: -869.5914, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1056.8552, log_ratio: 1835.1702 loss: -781.5797, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1046.4421, log_ratio: 1672.1382 loss: -712.0145, kl_coeff: 0.2010
+Epoch 78: Generating dataset...
+Final state: tensor([-5.9439,  0.0559, -0.4955, -0.0456], device='cuda:0')
+Controller weights: tensor([[-0.0249, -0.6415, -0.6806, -0.3036]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1025.9664, log_ratio: 3044.3250 loss: -873.7502, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1080.8386, log_ratio: 2065.9573 loss: -874.2429, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1073.6433, log_ratio: 1717.9093 loss: -815.9569, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1040.1105, log_ratio: 1577.8907 loss: -724.5323, kl_coeff: 0.2010
+Epoch 79: Generating dataset...
+Final state: tensor([-6.2350,  0.0711, -0.5012,  0.0534], device='cuda:0')
+Controller weights: tensor([[-0.0165, -0.6672, -0.6713, -0.2781]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1043.2206, log_ratio: 2819.9636 loss: -902.2224, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1098.5283, log_ratio: 2141.7981 loss: -884.3485, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1055.7487, log_ratio: 1873.1929 loss: -774.7697, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1034.1880, log_ratio: 1625.8558 loss: -709.0168, kl_coeff: 0.2010
+Epoch 80: Generating dataset...
+Final state: tensor([-6.4999,  0.0165, -0.5329,  0.0447], device='cuda:0')
+Controller weights: tensor([[-0.0129, -0.6639, -0.6655, -0.2778]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1002.6924, log_ratio: 3370.4504 loss: -834.1699, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1114.6349, log_ratio: 2151.0256 loss: -899.5323, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1078.9899, log_ratio: 1785.5844 loss: -811.1522, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1054.1309, log_ratio: 1668.2299 loss: -720.4849, kl_coeff: 0.2010
+Epoch 81: Generating dataset...
+Final state: tensor([-5.5501,  0.0510, -0.4071,  0.0243], device='cuda:0')
+Controller weights: tensor([[-0.0324, -0.6350, -0.6712, -0.2177]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1023.6592, log_ratio: 3037.1528 loss: -871.8015, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1103.3475, log_ratio: 2152.6860 loss: -888.0789, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1075.5645, log_ratio: 1829.4083 loss: -801.1532, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1058.0139, log_ratio: 1601.8279 loss: -737.6483, kl_coeff: 0.2010
+Epoch 82: Generating dataset...
+Final state: tensor([-5.6516,  0.0175, -0.4225,  0.0476], device='cuda:0')
+Controller weights: tensor([[-0.0271, -0.6406, -0.6684, -0.2050]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 986.6554, log_ratio: 3283.1702 loss: -822.4969, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1096.8154, log_ratio: 2275.8430 loss: -869.2311, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1073.4624, log_ratio: 1905.9172 loss: -787.5748, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1046.2051, log_ratio: 1675.0168 loss: -711.2017, kl_coeff: 0.2010
+Epoch 83: Generating dataset...
+Final state: tensor([-6.1993,  0.0110, -0.4904,  0.0208], device='cuda:0')
+Controller weights: tensor([[-0.0170, -0.5934, -0.6749, -0.1900]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1071.3721, log_ratio: 3626.6604 loss: -890.0391, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1104.9331, log_ratio: 2231.5471 loss: -881.7784, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1066.9043, log_ratio: 1888.7334 loss: -783.5942, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1064.6128, log_ratio: 1621.6428 loss: -740.2842, kl_coeff: 0.2010
+Epoch 84: Generating dataset...
+Final state: tensor([-6.7115,  0.0650, -0.6408,  0.0403], device='cuda:0')
+Controller weights: tensor([[ 0.0007, -0.5880, -0.6530, -0.1575]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1013.7747, log_ratio: 3494.9661 loss: -839.0264, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1088.9464, log_ratio: 2286.6724 loss: -860.2792, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1069.7393, log_ratio: 1947.6925 loss: -777.5853, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1029.2137, log_ratio: 1744.4528 loss: -680.3232, kl_coeff: 0.2010
+Epoch 85: Generating dataset...
+Final state: tensor([-7.0995, -0.0272, -0.7026,  0.0545], device='cuda:0')
+Controller weights: tensor([[ 0.0083, -0.5784, -0.6433, -0.1301]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1010.7264, log_ratio: 3716.1431 loss: -824.9192, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1108.0105, log_ratio: 2323.5251 loss: -875.6580, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1072.2068, log_ratio: 1960.8872 loss: -778.0737, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1045.6030, log_ratio: 1703.4338 loss: -704.9163, kl_coeff: 0.2010
+Epoch 86: Generating dataset...
+Final state: tensor([-6.7475,  0.0496, -0.6726,  0.0898], device='cuda:0')
+Controller weights: tensor([[ 0.0015, -0.5651, -0.6318, -0.1120]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1023.6083, log_ratio: 3762.4919 loss: -835.4838, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1102.5269, log_ratio: 2337.9543 loss: -868.7314, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1071.4707, log_ratio: 1966.9998 loss: -776.4207, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1047.6372, log_ratio: 1741.7448 loss: -699.2882, kl_coeff: 0.2010
+Epoch 87: Generating dataset...
+Final state: tensor([-6.8856,  0.0519, -0.6350,  0.0861], device='cuda:0')
+Controller weights: tensor([[-4.7187e-04, -5.0209e-01, -6.3661e-01, -8.3211e-02]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1002.1593, log_ratio: 3173.4875 loss: -843.4849, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1101.8369, log_ratio: 2283.7271 loss: -873.4642, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1057.4990, log_ratio: 1979.7073 loss: -760.5429, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1029.8918, log_ratio: 1725.0485 loss: -684.8821, kl_coeff: 0.2010
+Epoch 88: Generating dataset...
+Final state: tensor([-6.6878,  0.0290, -0.5757,  0.1386], device='cuda:0')
+Controller weights: tensor([[-0.0046, -0.5029, -0.6340, -0.0965]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1065.2809, log_ratio: 3505.0154 loss: -890.0301, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1108.6892, log_ratio: 2393.7788 loss: -869.3113, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1072.3512, log_ratio: 1985.2152 loss: -774.5689, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1038.1532, log_ratio: 1771.3672 loss: -683.8798, kl_coeff: 0.2010
+Epoch 89: Generating dataset...
+Final state: tensor([-6.8094,  0.0449, -0.6623,  0.0532], device='cuda:0')
+Controller weights: tensor([[ 4.0303e-04, -4.5881e-01, -6.3360e-01, -7.0912e-02]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1040.0427, log_ratio: 3707.3655 loss: -854.6744, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1087.9551, log_ratio: 2424.4609 loss: -845.5090, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1058.9955, log_ratio: 1985.9557 loss: -761.1021, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1031.9685, log_ratio: 1809.7982 loss: -670.0089, kl_coeff: 0.2010
+Epoch 90: Generating dataset...
+Final state: tensor([-6.7798,  0.0072, -0.6393,  0.0971], device='cuda:0')
+Controller weights: tensor([[ 0.0033, -0.4032, -0.6346, -0.0328]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1049.6553, log_ratio: 3469.4512 loss: -876.1827, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1104.2098, log_ratio: 2514.8655 loss: -852.7233, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1087.7150, log_ratio: 2052.3638 loss: -779.8604, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1043.1367, log_ratio: 1835.0773 loss: -676.1212, kl_coeff: 0.2010
+Epoch 91: Generating dataset...
+Final state: tensor([-6.7350,  0.0275, -0.6767,  0.1122], device='cuda:0')
+Controller weights: tensor([[ 0.0123, -0.3935, -0.6411,  0.0016]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1022.1309, log_ratio: 3994.6956 loss: -822.3961, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1080.9822, log_ratio: 2657.3635 loss: -815.2458, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1046.7168, log_ratio: 2200.3059 loss: -716.6709, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1009.0271, log_ratio: 1981.5903 loss: -612.7090, kl_coeff: 0.2010
+Epoch 92: Generating dataset...
+Final state: tensor([-6.4036,  0.0734, -0.6126,  0.1717], device='cuda:0')
+Controller weights: tensor([[ 0.0136, -0.3228, -0.6430,  0.0397]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1062.6970, log_ratio: 3672.8123 loss: -879.0564, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1070.1228, log_ratio: 2672.0386 loss: -802.9189, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1032.0574, log_ratio: 2287.7209 loss: -688.8992, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1012.9465, log_ratio: 1977.4602 loss: -617.4545, kl_coeff: 0.2010
+Epoch 93: Generating dataset...
+Final state: tensor([-6.0079e+00,  3.5102e-03, -4.8105e-01,  2.7509e-01], device='cuda:0')
+Controller weights: tensor([[ 0.0080, -0.3036, -0.6466,  0.0951]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1055.7161, log_ratio: 3933.0432 loss: -859.0639, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1057.5776, log_ratio: 2750.2268 loss: -782.5549, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1015.0696, log_ratio: 2310.1877 loss: -668.5414, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 992.9576, log_ratio: 1994.9658 loss: -593.9645, kl_coeff: 0.2010
+Epoch 94: Generating dataset...
+Final state: tensor([-6.2282, -0.1102, -0.4905,  0.3251], device='cuda:0')
+Controller weights: tensor([[ 0.0137, -0.2999, -0.6417,  0.1067]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 981.4542, log_ratio: 3823.8816 loss: -790.2601, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1002.5887, log_ratio: 2850.1575 loss: -717.5730, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 960.2088, log_ratio: 2413.8164 loss: -598.1364, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 967.3339, log_ratio: 2088.8516 loss: -549.5635, kl_coeff: 0.2010
+Epoch 95: Generating dataset...
+Final state: tensor([-6.0621,  0.0119, -0.4684,  0.3908], device='cuda:0')
+Controller weights: tensor([[ 0.0158, -0.3324, -0.6486,  0.1248]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1031.4873, log_ratio: 3945.3792 loss: -834.2183, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1065.5863, log_ratio: 2846.3503 loss: -780.9513, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1028.1147, log_ratio: 2400.8069 loss: -667.9937, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 974.1866, log_ratio: 2049.6772 loss: -564.2512, kl_coeff: 0.2010
+Epoch 96: Generating dataset...
+Final state: tensor([-6.4137, -0.1996, -0.4616,  0.5373], device='cuda:0')
+Controller weights: tensor([[ 0.0271, -0.2992, -0.6686,  0.1410]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 917.4303, log_ratio: 4377.8628 loss: -698.5372, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1030.0671, log_ratio: 2870.2686 loss: -743.0403, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1005.1320, log_ratio: 2380.5972 loss: -648.0424, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 961.5956, log_ratio: 2131.4604 loss: -535.3035, kl_coeff: 0.2010
+Epoch 97: Generating dataset...
+Final state: tensor([-6.5335, -0.2430, -0.4501,  0.4600], device='cuda:0')
+Controller weights: tensor([[ 0.0204, -0.3251, -0.6626,  0.1556]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1029.3901, log_ratio: 4368.1406 loss: -810.9831, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1038.0378, log_ratio: 2844.8076 loss: -753.5571, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 999.8426, log_ratio: 2389.8237 loss: -641.3690, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 982.1863, log_ratio: 2031.1638 loss: -575.9536, kl_coeff: 0.2010
+Epoch 98: Generating dataset...
+Final state: tensor([-6.1411, -0.4088, -0.4419,  0.3345], device='cuda:0')
+Controller weights: tensor([[ 0.0128, -0.2800, -0.6627,  0.1795]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 1052.9949, log_ratio: 4007.9526 loss: -852.5972, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1029.5369, log_ratio: 2888.7598 loss: -740.6609, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1026.3733, log_ratio: 2291.5205 loss: -682.6452, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 1000.2433, log_ratio: 2040.1794 loss: -592.2074, kl_coeff: 0.2010
+Epoch 99: Generating dataset...
+Final state: tensor([-6.5965, -0.3642, -0.5439,  0.3382], device='cuda:0')
+Controller weights: tensor([[ 0.0263, -0.2595, -0.6615,  0.1867]], device='cuda:0')
+global_step: 000050, lr: 0.00861, log_pxs: 993.0115, log_ratio: 3916.8464 loss: -797.1691, kl_coeff: 0.0510
+global_step: 000100, lr: 0.00740, log_pxs: 1038.4237, log_ratio: 2824.2134 loss: -756.0023, kl_coeff: 0.1010
+global_step: 000150, lr: 0.00637, log_pxs: 1024.4740, log_ratio: 2371.1228 loss: -668.8055, kl_coeff: 0.1510
+global_step: 000200, lr: 0.00548, log_pxs: 993.1944, log_ratio: 1999.8301 loss: -593.2284, kl_coeff: 0.2010
+==============================================================================
+Running epilogue script on swarma1003.
+
+Submit time  : 2025-04-20T19:33:40
+Start time   : 2025-04-20T19:33:41
+End time     : 2025-04-21T14:48:04
+Elapsed time : 19:14:23 (Timelimit=1-12:00:00)
+
+Job ID: 117588
+Cluster: iridis_x
+User/Group: yl1d24/fp
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 4
+CPU Utilized: 19:14:58
+CPU Efficiency: 25.01% of 3-04:57:32 core-walltime
+Job Wall-clock time: 19:14:23
+Memory Utilized: 1.57 GB
+Memory Efficiency: 19.64% of 8.00 GB
